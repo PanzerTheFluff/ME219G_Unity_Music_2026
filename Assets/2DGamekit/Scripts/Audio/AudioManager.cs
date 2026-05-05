@@ -21,6 +21,7 @@ public class AudioManager : MonoBehaviour
         public StudioEventEmitter musicPause;
         public StudioEventEmitter ambiance;
         public StudioEventEmitter snapShotPause;
+        public StudioEventEmitter musicIndoors;
     }
     public Emitters eventEmitters;
 
@@ -62,7 +63,7 @@ public class AudioManager : MonoBehaviour
     [SerializeField] private EventReference stingerGameOver;
     [SerializeField] private EventReference stingerKeyPickup;
     [SerializeField] private EventReference stingerWeaponPickup;
-        
+    [SerializeField] private EventReference stingerPuzzleSolved;
     [HideInInspector]
     public bool combatState;
     private bool timerRunning;
@@ -323,7 +324,16 @@ public class AudioManager : MonoBehaviour
         }
         RuntimeManager.PlayOneShot(stingerWeaponPickup);
     }
-    
+
+    public void PlayPuzzleSolved()
+    {
+        if (stingerPuzzleSolved.IsNull)
+        {
+            Debug.LogWarning("Fmod event not found: puzzleSolved");
+            return;
+        }
+        RuntimeManager.PlayOneShot(stingerPuzzleSolved);
+    }
     public void PlayGameOver()
     {
         if (stingerGameOver.IsNull)
