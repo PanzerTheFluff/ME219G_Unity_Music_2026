@@ -734,13 +734,13 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: 1499620335
-      Data2: 1135213807
-      Data3: 925227913
-      Data4: 110981814
-    Path: event:/Ambiance/Ambiance_Indoor_Cave
+      Data1: -665198779
+      Data2: 1168238807
+      Data3: -1429716851
+      Data4: -348345980
+    Path: event:/Music/Title
   Event: 
-  EventPlayTrigger: 1
+  EventPlayTrigger: 0
   EventStopTrigger: 0
   AllowFadeout: 1
   TriggerOnce: 0
