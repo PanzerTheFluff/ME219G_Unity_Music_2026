@@ -33,6 +33,7 @@ TagManager:
   - SnapshotPause
   - MusicIndoors
   - stingerPuzzleSolved
+  - MusicDrumsTransiver
   layers:
   - Default
   - TransparentFX
