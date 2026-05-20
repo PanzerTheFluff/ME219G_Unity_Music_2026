@@ -299,11 +299,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -1713563184
-      Data2: 1158524596
-      Data3: -230201410
-      Data4: 1873434077
-    Path: event:/Music/Music
+      Data1: 273040499
+      Data2: 1238382509
+      Data3: -1015648617
+      Data4: 659078227
+    Path: event:/Music/ForeginHome
   Event: 
   EventPlayTrigger: 0
   EventStopTrigger: 0
