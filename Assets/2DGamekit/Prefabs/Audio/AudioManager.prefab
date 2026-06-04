@@ -238,11 +238,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 662388628
+      Data2: 1167774458
+      Data3: 1539058320
+      Data4: 1788090339
+    Path: event:/Stinger/stingerPuzzleSolved
   Event: 
   EventPlayTrigger: 0
   EventStopTrigger: 0
@@ -252,8 +252,8 @@ MonoBehaviour:
   NonRigidbodyVelocity: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: -1
-  OverrideMaxDistance: -1
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &3166638167543302751
 GameObject:
   m_ObjectHideFlags: 0
